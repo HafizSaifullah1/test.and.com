@@ -1,0 +1,28 @@
+.header{
+padding-left: 450px;
+}
+
+.box1{
+    border: 2px solid black;
+border-radius: 20px;
+}
+
+.productcard {
+    height: 400px;
+    border-radius: 25px;
+background-color: gray;
+    background-size: cover;
+}
+
+
+.trns {
+    display: none;
+}
+.productcard:hover .trns{
+    display: block;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    color:black;
+border-radius: 15px;
+}
